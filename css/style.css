@@ -41,6 +41,74 @@ Developer @GA in NYC
   padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
 
+.content-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.relaxr {
+  float: left;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.nav {
+  float: right;
+  padding-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col {
+  width: 100%;
+  display: inline-block;
+  float: left;
+  padding: 5px;
+}
+
+.col-75 {
+  width: 75%;
+}
+
+.col-25 {
+  width: 25%;
+}
+
+a .button {
+  color: black;
+  float: right;
+
+}
+
+.woot {
+  max-width: 100%;
+}
+
+.yup {
+  background-color: yellow;
+}
+
+.yikes {
+  color:white;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.okay {
+  background-color: grey;
+  text-align: center;
+}
+
+.oi {
+  color: yellow;
+}
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -52,16 +120,24 @@ body {
      font-family: Helvetica, Arial, sans-serif;
 }
 
+header {
+  background-color: darkblue;
+}
 
+a {
+  text-decoration: none;
+  color: yellow;
+  padding-right: 12px;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
 
 /* Center the container */
 #container {
-  width: 960px;
   margin: auto;
 }
+
 
 header {
 
