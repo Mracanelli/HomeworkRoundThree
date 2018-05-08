@@ -42,7 +42,7 @@ Developer @GA in NYC
 }
 
 .content-wrapper {
-  max-width: 960px;
+  max-width: 760px;
   margin: 0 auto;
 }
 
@@ -51,12 +51,15 @@ Developer @GA in NYC
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
+  font-size: 25px;
+  letter-spacing: 1px;
 
 }
 
 .nav {
   float: right;
   padding-top: 20px;
+  font-size: 15px;
 }
 
 .row:after {
@@ -91,22 +94,53 @@ a .button {
 }
 
 .yup {
-  background-color: yellow;
+  background-color: #f7f114ed;
+  height: 50px;
 }
 
 .yikes {
-  color:white;
-  width: 100%;
-  margin: 0 auto;
+    background-color: #253a50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
 }
 
 .okay {
-  background-color: grey;
+  background-color: #2f2e2e;
   text-align: center;
+  height: 200px;
 }
 
 .oi {
-  color: yellow;
+  color: #f7f114ed;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.h1 {
+  font-size: 25px;
+  color: #253a50;
+  padding-top: 20px;
+}
+
+.sides {
+  color: #2f2e2e;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.img {
+    padding-left: 5px;
+    padding-right: 20px;
 }
 
 /******************************************
@@ -118,16 +152,29 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
+     background-color: #ecebeb;
 }
 
 header {
-  background-color: darkblue;
+  background-color: #253a50;
 }
 
 a {
   text-decoration: none;
-  color: yellow;
+  color: #f7f114ed;
   padding-right: 12px;
+}
+
+p {
+  font-size: 15px;
+  color: #2f2e2e;
+  font-weight: lighter;
+}
+
+li {
+  font-size: 15px;
+  color: #2f2e2e;
+  font-weight: lighter;
 }
 /******************************************
 /* LAYOUT
@@ -138,6 +185,12 @@ a {
   margin: auto;
 }
 
+#copyright {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 30px;
+}
 
 header {
 
