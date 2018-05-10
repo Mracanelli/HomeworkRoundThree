@@ -98,18 +98,19 @@ Developer @GA in NYC
 .yup {
   background-color: #f7f114ed;
   height: 70px;
+  text-align: center;
 }
 
 .yikes {
     background-color: #253a50; 
     border: none;
     color: white;
-    text-align: center;
     padding: 10px 32px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 4px;
+    margin-top: 15px;
 }
 
 .okay {
